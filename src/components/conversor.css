@@ -1,0 +1,60 @@
+.conversor{
+    padding: 20px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0.2);
+    margin-left:15px ;
+    margin-top: 10px;
+    transition: 5s;
+    border-radius: 8%;
+    
+}
+
+.conversor:hover{
+    top:-5px;
+    position: relative;
+    box-shadow: 2 8px 4px 2 rgba(0,0,0.2);
+    transition: 0.5s;
+}
+
+.linha{
+    display: flex;
+    margin-top: -50px;
+    margin-bottom:50px ;
+    justify-content: space-around;
+}
+
+h1{
+    text-align: center;
+}
+
+.App{
+margin-top: -15px;
+    margin: auto;
+    max-width: 900px;
+}
+
+
+/* MEDIAS QUERIS */
+
+
+@media(max-width:770px){
+
+    .linha{
+        display: flex;
+        margin-top: 0px;
+        margin-bottom:50px ;
+        justify-content: space-around;
+    }
+}
+
+@media(max-width:500px){
+    .linha{
+        display: block;
+    
+    }
+
+    .conversor{
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
